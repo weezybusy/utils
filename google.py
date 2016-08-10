@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# google.py -- Opens google page with search results for provide keywords.
+# google.py -- Opens google page with search results for provided keywords.
 
 import sys
 import webbrowser
