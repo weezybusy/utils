@@ -12,4 +12,4 @@ pages = [ 'https://github.com/weezybusy',
           'http://clc-wiki.net/wiki/K%26R2_solutions' ]
 
 for page in pages:
-    webbrowser.open(page)
+    webbrowser.open_new_tab(page)
