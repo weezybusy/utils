@@ -9,6 +9,7 @@ pages = [ 'https://github.com/weezybusy',
           'https://mail.google.com/mail/u/0/#inbox',
           'https://www.youtube.com',
           'https://www.khanacademy.org',
+          'https://www.reddit.com',
           'http://clc-wiki.net/wiki/K%26R2_solutions' ]
 
 for page in pages:
