@@ -4,7 +4,7 @@ import webbrowser
 if len(sys.argv) < 2:
     sys.exit(0)
 
-google = 'https://www.google.com.ua/search?q='
+youtube = 'https://www.youtube.com/results?search_query='
 it = '+'.join(sys.argv[1:])
 
-webbrowser.open(google + it)
+webbrowser.open(youtube + it)
