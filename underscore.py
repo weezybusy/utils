@@ -1,12 +1,18 @@
 '''
 underscore.py
-Substitutes blanks with underscores for all files in directory.
+Substitutes blanks with underscores for all files and directories in the
+directory given by specified path. If the path was not specified, renames
+entries in current working directory.
 '''
 import os
 import re
 import sys
 
 def underscore(path):
+    '''
+    Substitutes blanks with underscores for all files
+    and directories in the directory given by path.
+    '''
     regex = re.compile(r'\s+')
     renamed = 0
     for entry in os.listdir(path):
